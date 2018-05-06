@@ -1,5 +1,5 @@
-var db = require("../models");
-var scrape = require("../scripts/scrape");
+var db = require("../models/index.js");
+var scrape = require("../scripts/scrape.js");
 
 module.exports = {
     scrapeHeadlines: function(req, res) {
